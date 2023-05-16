@@ -1,6 +1,5 @@
 exports.makePayment = async (req, res) => {
   try {
-    console.log(req.body);
     let isValid = validatePayment(req.body);
     res.status(201).json({ data: isValid });
   } catch (err) {
