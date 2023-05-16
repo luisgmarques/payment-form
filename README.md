@@ -5,6 +5,7 @@
 
 ```bash
 cd server
+npm i
 npm index.js
 ```
 
@@ -12,5 +13,6 @@ npm index.js
 
 ```bash
 cd client
+npm i
 npm run dev
 ```
